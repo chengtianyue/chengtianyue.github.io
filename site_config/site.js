@@ -30,21 +30,21 @@ export default {
     ],
     disclaimer: {
       title: 'Disclaimer',
-      content: 'the disclaimer content',
+      content: 'Please do not copy the content without permission',
     },
     documentation: {
       title: 'Documentation',
       list: [
         {
-          text: 'Overview',
-          link: '/en-us/docs/demo1.html',
+          text: 'Homepage',
+          link: '/en-us/index.html',
         },
         {
-          text: 'Quick start',
-          link: '/en-us/docs/demo2.html',
+          text: 'About me',
+          link: '/en-us/docs/me_en.html',
         },
         {
-          text: 'Developer guide',
+          text: 'Others',
           link: '/en-us/docs/dir/demo3.html',
         },
       ],
@@ -62,7 +62,7 @@ export default {
         },
       ],
     },
-    copyright: 'Copyright © 2018 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    copyright: 'Copyright © 2020 Backyard of Charlie Cheng',
   },
   'zh-cn': {
     pageMenu: [
@@ -89,21 +89,21 @@ export default {
     ],
     disclaimer: {
       title: '免责声明',
-      content: '免责声明的具体内容',
+      content: '未经允许请勿转载',
     },
     documentation: {
       title: '文档',
       list: [
         {
-          text: '概览',
-          link: '/zh-cn/docs/demo1.html',
+          text: '主页',
+          link: '/zh-cn/index.html',
         },
         {
-          text: '快速开始',
-          link: '/zh-cn/docs/demo2.html',
+          text: '关于我',
+          link: '/zh-cn/docs/me_zh.html',
         },
         {
-          text: '开发者指南',
+          text: '其它',
           link: '/zh-cn/docs/dir/demo3.html',
         },
       ],
@@ -121,6 +121,6 @@ export default {
         },
       ],
     },
-    copyright: 'Copyright © 2018 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    copyright: 'Copyright © 2020 查理的后花园',
   },
 };

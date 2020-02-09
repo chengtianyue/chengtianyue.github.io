@@ -21,7 +21,7 @@ export default {
     introduction: {
       title: '关于本网站',
       desc: '本网站主要发布个人对于深度学习领域的一些小制作和见解，定期更新一些最新资讯。当然也会有平时生活中的所见所闻和小部分生活视频。',
-      img: '/img/architecture.png',
+      img: '/img/logo.jpg',
     },
     features: {
       title: '网站功能',
@@ -109,51 +109,51 @@ export default {
     },
     introduction: {
       title: 'About this website',
-      desc: '',
-      img: '/img/architecture.png',
+      desc: 'The website is about my opinions and ideas toward AI and Computer Science. There are also some interesting things happening around me as well as my vlogs or videos.',
+      img: '/img/logo.jpg',
     },
     features: {
-      title: 'Feature List',
+      title: 'About this website',
       list: [
         {
           img: '/img/feature_transpart.png',
-          title: 'feature1',
-          content: 'feature description',
+          title: 'Deep Learning',
+          content: '',
         },
         {
           img: '/img/feature_loadbalances.png',
-          title: 'feature2',
-          content: 'feature description',
+          title: 'Machine Learning',
+          content: '',
         },
         {
           img: '/img/feature_service.png',
-          title: 'feature3',
-          content: 'feature description',
+          title: 'Data Analysing',
+          content: '',
         },
         {
           img: '/img/feature_hogh.png',
-          title: 'feature4',
-          content: 'feature description',
+          title: 'Video clips/vlogs',
+          content: '',
         },
         {
           img: '/img/feature_runtime.png',
-          title: 'feature5',
-          content: 'feature description',
+          title: 'Sports/Basketball',
+          content: '',
         },
         {
           img: '/img/feature_maintenance.png',
-          title: 'feature6',
-          content: 'feature description',
+          title: 'Daily life',
+          content: '',
         }
       ]
     },
     start: {
-      title: 'Quick start',
-      desc: 'some description text',
+      title: 'About me',
+      desc: 'About the intention of this website',
       img: '/img/quick_start.png',
       button: {
         text: 'READ MORE',
-        link: '/en-us/docs/demo1.html',
+        link: '/en-us/docs/me_en.html',
       },
     },
     users: {
