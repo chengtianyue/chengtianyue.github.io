@@ -3,7 +3,7 @@ pages:
  home:
   # 首页配置
   zh-cn:
-   title: 'Charlie Cheng的网站'
+   title: '查理的后花园'
    keywords: 'Charlie'
    description: '作者：Charlie'
   # home config
@@ -19,7 +19,7 @@ pages:
    description: '页面内容简介'
   # community page config
   en-us:
-   title: 'page title'
+   title: 'Community'
    keywords: 'keyword1,keyword2'
    description: 'page description'
  blog:
@@ -30,6 +30,6 @@ pages:
    description: '页面内容简介'
   en-us:
    # blog list page config
-   title: 'page title'
+   title: 'Blog'
    keywords: 'keyword1,keyword2'
    description: 'page description'
