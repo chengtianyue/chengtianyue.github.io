@@ -113,6 +113,58 @@ export default {
         },
       ],
     },
+    ecos: {
+      title: 'Eco System',
+      list: [
+        {
+          title: 'Eco1',
+          content: <span>Eco System1</span>,
+          tags: [
+            {
+              text: 'tag1',
+              link: '',
+              bgColor: '#7A63FC',
+            },
+            {
+              text: 'tag2',
+              link: '',
+              bgColor: '#00D0D9',
+            },
+            {
+              text: 'tag3',
+              link: '',
+              bgColor: '#00D0D9',
+            },
+          ],
+        },
+        {
+          title: 'Eco2',
+          content: <span>Eco System2</span>,
+          tags: [
+            {
+              text: 'tag1',
+              link: '',
+              bgColor: '#7A63FC',
+            },
+            {
+              text: 'tag2',
+              link: '',
+              bgColor: '#00D0D9',
+            },
+            {
+              text: 'tag3',
+              link: '/en-us/docs/demo1.html',
+              bgColor: '#00D0D9',
+            },
+            {
+              text: 'tag4',
+              link: '',
+              bgColor: '#00D0D9',
+            },
+          ],
+        },
+      ],
+    },
   },
   'zh-cn': {
     barText: '社区',
@@ -223,6 +275,58 @@ export default {
           img: '/img/pullrequest.png',
           title: 'Pull Request',
           content: <span>github上发pull request</span>,
+        },
+      ],
+    },
+     ecos: {
+      title: '生态系统',
+      list: [
+        {
+          title: '生态系统1',
+          content: <span>生态系统1</span>,
+          tags: [
+            {
+              text: '标签1',
+              link: '',
+              bgColor: '#7A63FC',
+            },
+            {
+              text: '标签2',
+              link: '',
+              bgColor: '#00D0D9',
+            },
+            {
+              text: '标签3',
+              link: '',
+              bgColor: '#00D0D9',
+            },
+          ],
+        },
+        {
+          title: '生态系统2',
+          content: <span>生态系统2</span>,
+          tags: [
+            {
+              text: '标签1',
+              link: '',
+              bgColor: '#7A63FC',
+            },
+            {
+              text: '标签2',
+              link: '',
+              bgColor: '#00D0D9',
+            },
+            {
+              text: '标签3',
+              link: '/zh-cn/docs/demo1.html',
+              bgColor: '#00D0D9',
+            },
+            {
+              text: '标签4',
+              link: '',
+              bgColor: '#00D0D9',
+            },
+          ],
         },
       ],
     },
