@@ -16,8 +16,8 @@
       "meta": {}
     },
     {
-      "filename": "me_en.md",
-      "link": "\\en-us\\docs\\me_en.html",
+      "filename": "me.md",
+      "link": "\\en-us\\docs\\me.html",
       "meta": {}
     }
   ],
@@ -38,8 +38,8 @@
       "meta": {}
     },
     {
-      "filename": "me_zh.md",
-      "link": "\\zh-cn\\docs\\me_zh.html",
+      "filename": "me.md",
+      "link": "\\zh-cn\\docs\\me.html",
       "meta": {}
     }
   ]

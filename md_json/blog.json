@@ -55,6 +55,11 @@
         "key1": "hello",
         "key2": "world"
       }
+    },
+    {
+      "filename": "linux-tutorial.md",
+      "link": "\\en-us\\blog\\linux-tutorial.html",
+      "meta": {}
     }
   ],
   "zh-cn": [
@@ -113,6 +118,11 @@
         "key1": "hello",
         "key2": "world"
       }
+    },
+    {
+      "filename": "linux-tutorial.md",
+      "link": "\\zh-cn\\blog\\linux-tutorial.html",
+      "meta": {}
     }
   ]
 }

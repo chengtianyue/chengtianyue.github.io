@@ -7,58 +7,16 @@ export default {
       title: 'Latest Blogs',
       list: [
         {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog1.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog2.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog3.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog4.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog5.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog6.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: 'this is the title',
-          content: 'this is the content',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog7.html',
+          img: 'http://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbqgicQaoPKXJGib1Bl5pghlnXVLrK8lvfNzkQ6icL8Z0l3sSk95L4CasVQ/0?wx_fmt=jpeg',
+          title: 'A quick Linux Startup (for especially High School Students)',
+          content: 'A brief introduction to set up a Linux environment',
+          dateStr: 'May 17th，2019',
+          link: '/en-us/blog/linux-tutorial.html',
         },
       ]
     },
     contacts: {
-      title: 'Contact Us',
+      title: 'Contact Me',
       desc: 'Feel free to contact me via the following channel.',
       list: [
         {
@@ -114,52 +72,20 @@ export default {
       ],
     },
     ecos: {
-      title: 'Eco System',
+      title: 'My mini programs',
       list: [
         {
-          title: 'Eco1',
-          content: <span>Eco System1</span>,
+          title: 'Github urls',
           tags: [
             {
-              text: 'tag1',
-              link: '',
-              bgColor: '#7A63FC',
+              text: 'Happy New Year (Wechat profile photo cropper)',
+              link: 'https://github.com/chengtianyue/HappyNewYear-',
+              bgColor: '#FF0000',
             },
             {
-              text: 'tag2',
-              link: '',
-              bgColor: '#00D0D9',
-            },
-            {
-              text: 'tag3',
-              link: '',
-              bgColor: '#00D0D9',
-            },
-          ],
-        },
-        {
-          title: 'Eco2',
-          content: <span>Eco System2</span>,
-          tags: [
-            {
-              text: 'tag1',
-              link: '',
-              bgColor: '#7A63FC',
-            },
-            {
-              text: 'tag2',
-              link: '',
-              bgColor: '#00D0D9',
-            },
-            {
-              text: 'tag3',
-              link: '/en-us/docs/demo1.html',
-              bgColor: '#00D0D9',
-            },
-            {
-              text: 'tag4',
-              link: '',
-              bgColor: '#00D0D9',
+              text: 'Steve\'s Low AP 4 Generator',
+              link: 'https://github.com/chengtianyue/Steve-s-lowAP4-generator',
+              bgColor: '#7FFF00',
             },
           ],
         },
@@ -172,58 +98,16 @@ export default {
       title: '最新博客',
       list: [
         {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog1.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog2.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog3.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog4.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog5.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog6.html',
-        },
-        {
-          img: '/img/brhtqqzh.jpeg',
-          title: '这是标题',
-          content: '这是内容',
-          dateStr: 'May 12nd，2018',
-          link: '/zh-cn/blog/blog7.html',
+          img: 'http://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbqgicQaoPKXJGib1Bl5pghlnXVLrK8lvfNzkQ6icL8Z0l3sSk95L4CasVQ/0?wx_fmt=jpeg',
+          title: '高中生都可以看懂的linux安装教程',
+          content: 'Linux入门简单介绍',
+          dateStr: '2019年3月17日',
+          link: '/zh-cn/blog/linux-tutorial.html',
         },
       ]
     },
     contacts: {
-      title: '联系我们',
+      title: '联系我',
       desc: '请通过一下方式联系我',
       list: [
         {
@@ -279,52 +163,20 @@ export default {
       ],
     },
      ecos: {
-      title: '生态系统',
+      title: '我的小程序',
       list: [
         {
-          title: '生态系统1',
-          content: <span>生态系统1</span>,
+          title: 'Github链接',
           tags: [
             {
-              text: '标签1',
-              link: '',
-              bgColor: '#7A63FC',
+              text: '新年微信头像整合小程序',
+              link: 'https://github.com/chengtianyue/HappyNewYear-',
+              bgColor: '#FF0000',
             },
             {
-              text: '标签2',
-              link: '',
-              bgColor: '#00D0D9',
-            },
-            {
-              text: '标签3',
-              link: '',
-              bgColor: '#00D0D9',
-            },
-          ],
-        },
-        {
-          title: '生态系统2',
-          content: <span>生态系统2</span>,
-          tags: [
-            {
-              text: '标签1',
-              link: '',
-              bgColor: '#7A63FC',
-            },
-            {
-              text: '标签2',
-              link: '',
-              bgColor: '#00D0D9',
-            },
-            {
-              text: '标签3',
-              link: '/zh-cn/docs/demo1.html',
-              bgColor: '#00D0D9',
-            },
-            {
-              text: '标签4',
-              link: '',
-              bgColor: '#00D0D9',
+              text: 'Low AP 4 作文生成器',
+              link: 'https://github.com/chengtianyue/Steve-s-lowAP4-generator',
+              bgColor: '#7FFF00',
             },
           ],
         },

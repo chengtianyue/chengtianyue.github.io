@@ -2,57 +2,47 @@ export default {
   'en-us': {
     sidemenu: [
       {
-        title: 'header title',
+        title: 'Docs List',
         children: [
           {
-            title: 'demo1',
-            link: '/en-us/docs/demo1.html',
+            title: 'About me',
+            link: '/en-us/docs/me.html',
           },
           {
-            title: 'demo2',
-            link: '/en-us/docs/demo2.html',
-          },
-          {
-            title: 'dir',
-            opened: true,
+            title: 'Resources',
             children: [
               {
-                title: 'demo3',
-                link: '/en-us/docs/dir/demo3.html',
+                title: 'My Wechat-public-account',
+                link: '/en-us/docs/wechat.html',
               },
             ],
           },
         ],
       },
     ],
-    barText: 'Documentation',
+    barText: 'Articles',
   },
   'zh-cn': {
     sidemenu: [
       {
-        title: '大标题',
+        title: '文章列表',
         children: [
           {
-            title: '示例1',
-            link: '/zh-cn/docs/demo1.html',
+            title: '关于我',
+            link: '/zh-cn/docs/me.html',
           },
           {
-            title: '示例2',
-            link: '/zh-cn/docs/demo2.html',
-          },
-          {
-            title: '目录',
-            opened: true,
+            title: '资源中心',
             children: [
               {
-                title: '示例3',
-                link: '/zh-cn/docs/dir/demo3.html',
+                title: '我的微信公众号',
+                link: '/zh-cn/docs/wechat.html',
               },
             ],
           },
         ],
       },
     ],
-    barText: '文档',
+    barText: '文章',
   },
 };

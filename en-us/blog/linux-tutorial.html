@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="keywords" content="linux-tutorial" />
+	<meta name="description" content="linux-tutorial" />
+	<!-- 网页标签标题 -->
+	<title>linux-tutorial</title>
+	<link rel="shortcut icon" href="/img/docsite.ico"/>
+	<link rel="stylesheet" href="/build/blogDetail.css" />
+</head>
+<body>
+	<div id="root"><div class="blog-detail-page" data-reactroot=""><header class="header-container header-container-normal"><div class="header-body"><a href="/en-us/index.html"><img class="logo" src="/img/dubbo_colorful.png"/></a><div class="search search-normal"><span class="icon-search"></span></div><span class="language-switch language-switch-normal">中</span><div class="header-menu"><img class="header-menu-toggle" src="/img/system/menu_gray.png"/><ul><li class="menu-item menu-item-normal"><a href="/en-us/index.html" target="_self">HOME</a></li><li class="menu-item menu-item-normal"><a href="/en-us/docs/demo1.html" target="_self">DOCS</a></li><li class="menu-item menu-item-normal menu-item-normal-active"><a href="/en-us/blog/index.html" target="_self">BLOG</a></li><li class="menu-item menu-item-normal"><a href="/en-us/community/index.html" target="_self">COMMUNITY</a></li></ul></div></div></header><section class="blog-content markdown-body"><p>Linux is an operating system that could be used with only a mouse and a keyboard. In order to make it easier for you guys to configure linux and python, I have summarized some tips of my previous month's installation experience and shared it with you guys.</p>
+<p>(Ps: I am using ubuntu 18.10, ubuntu 18.04lts and ubuntu 16.04 are also ok but slightly different)</p>
+<h3>Why Linux</h3>
+<p>Summarized into keywords: fast, convenient, safe, powerful</p>
+<p>For my old computer a few years ago, installing Linux is a better choice. I started to learn some basic operations by installing a virtual machine. After that, I began to install dual system. Linux is not only small and convenient but also open-source. installing Linux is a very good choice for most computers.</p>
+<p>The reason why Linux is suitable for old computers is that it has a smaller occupation of the system. Computers using Windows are basically as slow as ox carts after being used for six or seven years, whereas the amazing operating system Linux may not change much after using ten to twenty years. According to our school's English teacher, his father originally installed Linux on his old computer and found it to be particularly fast (he installed Xubuntu, an operating system specifically for old computers).</p>
+<p>Having said so much, in fact, the most important reason: it is <strong>free</strong>!</p>
+<h3>VMware Installation tutorial：</h3>
+<p>1,Download</p>
+<p>url: <a href="https://www.ubuntu.com/download/desktop">https://www.ubuntu.com/download/desktop</a></p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbgU89Npr626J3ne4CC0P2aaOJLYSYJiatEuVMicbtLa2wVbjA2Vy98OMQ/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>it will be an iso file，so first we need to save our computer.</p>
+<p>2，configuration</p>
+<p>Create a New Virtual Machine in VMware.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nb1LIaKmmDtte6icsPAfLJj05fOqRicJa9wIEral3cujngvqNDZNQBl6bg/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Then it will pop up the installation interface. (&quot;Typical&quot; is enough for most cases, here I chose &quot;Custom&quot; for more configuration).</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nb7iaiaJicus08o4c2VjXEC1icibS66E2T7g18ay4Zh8xJSfJicibcTpb8pZCLw/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Click Next.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nb88jU4ztupXvUPlj7r09lwqI7xjCPjJZiasphfp2Z57ywRCIicicBicOoHQ/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Here we need to choose the iso file we previously downloaded.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbOa9hWQqczwdjmRicXvsvN0Y0lAAUI2HSXSRKgWicqV1AUUj1dia33Oib6Q/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Enter the Name and the password.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nb3mIV6RaQKrj1klal65ibqE5DtLSvgwccdFq7zw6NgJJhBadictQmtcibA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Choose the installation location (try to find a larger space)</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbDoxczFdZLwtQMA09VLjREExePVpSicGViaP6YC7kDFdkF65wibiaicSBGRw/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>The number of processors is depended on use. For testing out, 1 is enough.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbAuOB9rfFJdKuwnxhdXs1BkSM9cZuX05ac5h30bzib891gs5ntjT1qcA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Memory. Still based on needs.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbxlicxP488WicsgDM0ibPJf4LIxQS7yIjsS7SBBLOmD80nGFrOGJxlGfNA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Here we need to choose network connection. I chose bridged networking for  using ssh to connect.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbxoYwDuicicdl4eT24hFfAx0ldsDTfjfV78TpFyFdAibJiaUYiaiaAbybib58A/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Keep clicking &quot;Next&quot;.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NblplpxOKOwKZowGUwU0icOnUJVbtmCBjrhAuSeFX3Rr7bmexBm0uLJ0A/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Configurating disk size. Strongly recommend to configure a larger space. （Be cautious! We can only enlarge the space but not decrease in the future）</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbDQibPsHvvlus86ibIbTn3t8BV1RbzgTkwCc98GkibWyAe92JpSsRGKVog/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Keep clicking next until seeing this. Double check our configuration.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbaX86Y7ONO4FeZSggTicLU5q0laE8Zh8VHGmBoqGCkkm8uSHNcfxLsBA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>After several minutes, your Linux machine is done!</p>
+<p>Installing Dual system:</p>
+<p>1，Download the iso file</p>
+<p>2，prepare an empty USB drive (Please make sure it is empty)</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nb724E5TnLibmMf9dvePZgEB1JO2aiajhLYGQzDEv7FwbuxFzdVMoNKiaicA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Download universal-USB-installer on google. Run it.</p>
+<p>*Many installers are not compatible with ubuntu. Universal-USB-installer is 100% compatible with ubuntu.</p>
+<p>(I recommend to close all the anti virus programs)</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nb724E5TnLibmMf9dvePZgEB1JO2aiajhLYGQzDEv7FwbuxFzdVMoNKiaicA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Click agree.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbOAdDS6w689EcWEejia6iaWbWFfjHibLVO5Xaxxp1DY6QRKRacLVfvicLgg/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>step1, choose your system (ubuntu).</p>
+<p>step2, choose your iso file</p>
+<p>step3, choose your empty USB driver.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbzVrLNFx0yZZQ2LcNdTQax3VT0wr92jQ5ibEbBzdNyOHP9u3O8sqAlag/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>It will be done after clicking &quot;create&quot;.</p>
+<p>Then we need to download EasyBCD.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nbujg1sSaeIPe5PNILf3bY3GbRictgjYIgUEWDXwyPQab8vehlmicHoluQ/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Just install it at the moment. We need to use it later.</p>
+<p>Now restart our computer and press f12 to access to BIOS (Different computers have different ways to access BIOS. You can check it out on Google)</p>
+<p>Choose &quot;Boot from USB&quot;.</p>
+<p>(Keep clicking next, and set up your username and password)</p>
+<p>#Here we need to notice that there should be a boot section (Around 1GB), A swap section(I chose 5 GB), home section (based on need).</p>
+<p>Restart After Installing.</p>
+<p>Open EasyBCD.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbUFkrUlWwK0yBC9PqB3y4XTQMMqWJxBoyF12kzXDUyuqzWW4VTL4kDA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Add a new config</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbictuhurC1htzcvmAgYm0VJSCEagjgnpKxclkYoOUtxB1oK9Kict9zicFA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Do not change the first row. The second row is for changing names.</p>
+<p>Choose your boot section in the third row.</p>
+<p>Add a new config, click &quot;yes&quot; after Linux.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbWb0sJOytcRNPg94y9UicFBLYaOerWvq36bD2MLUFSKMyKqNZL2exVOQ/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Save, Restart, and Enjoy!</p>
+<p>Then for connecting with ssh</p>
+<p>We need to download some apps to</p>
+<p>You can use MobaXterm, Putty, Xshell, etc.</p>
+<p>I chose MobaXterm as an example.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbnzQxHylqJN9cjLFLRrmxJq0xvOEN7NMXzibiaHtxhwWmxN3ua1vchibEA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Select new session.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbkB5hBDkvj1DeftaCZNBQaSzTXGuotxksPGf87IRM4xzgdXKXn9Vfgg/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>type in your IP address. (You can check by typing ipconfig)</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbBzJrICWENsdV4P7eib6Ptg5PD41WFths10iaOVCgVCUF1Ny39yMOyYXw/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Here we need to type in Username and Password.</p>
+<h5>Now it is time to configurate Python!</h5>
+<p>In fact Linux has many pre-installed apps, which is enough for daily use.</p>
+<p>type ctrl+alt+T to access the terminal.</p>
+<p>Type &quot;python&quot; to see your version.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbZxbpLdzxPibmX3qIp09rab0UIC6sTgxX9rqQvwoYO98sD8VjNs6m86A/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>Now we can see the version is 2.7.15. Type &quot;python3&quot; to use python 3.6.7.</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbcyorkQFBEHnE00YNOOCXY3iciczoZZD1OXV4MOTSLVAI3JxSQOgDoYSQ/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p>
+<p>We can also add some plugins to our python environment.</p>
+<p>I recommend to install virtualenv or anaconda beforehand.</p>
+<p>Virtualenv</p>
+<pre><code>sudo apt-get install virtualenv
+</code></pre>
+<p>or</p>
+<pre><code>sudo pip install virtualenv
+</code></pre>
+<p>Anaconda</p>
+<pre><code>conda create -n &quot;name&quot; python=3.6
+</code></pre>
+<p>Then for virtualenv users:</p>
+<pre><code>virtualenv venv
+</code></pre>
+<p>Anaconda users:</p>
+<pre><code>conda activate &quot;the name&quot;
+</code></pre>
+<p>virtualenv:</p>
+<pre><code>source my_project/venv/bin/activate
+</code></pre>
+<p>Then our environment is set up. We can install some plugins.</p>
+<pre><code>pip install tensorflow
+pip install numpy
+pip install pytz
+pip install pandas
+pip install &quot;your plugins&quot;
+</code></pre>
+<h5>Your Linux and Python environment is set!</h5>
+<p>My personal Website: <a href="http://www.charliecheng.ga">www.charliecheng.ga</a></p>
+<p>Welcome to visit my website. I will update more articles in the future.</p>
+<h4>Thanks for patiently reading to the end.</h4>
+</section><footer class="footer-container"><div class="footer-body"><img src="/img/dubbo_gray.png"/><div class="cols-container"><div class="col col-12"><h3>Disclaimer</h3><p>Please do not copy the content without permission</p></div><div class="col col-6"><dl><dt>Documentation</dt><dd><a href="/en-us/index.html" target="_self">Homepage</a></dd><dd><a href="/en-us/docs/me.html" target="_self">About me</a></dd><dd><a href="/en-us/docs/dir/demo3.html" target="_self">Others</a></dd></dl></div><div class="col col-6"><dl><dt>Resources</dt><dd><a href="/en-us/blog/index.html" target="_self">Blog</a></dd><dd><a href="/en-us/community/index.html" target="_self">Community</a></dd></dl></div></div><div class="copyright"><span>Copyright © 2020 Backyard of Charlie Cheng</span></div></div></footer></div></div>
+	<script src="https://f.alicdn.com/react/15.4.1/react-with-addons.min.js"></script>
+	<script src="https://f.alicdn.com/react/15.4.1/react-dom.min.js"></script>
+	<script>
+		window.rootPath = '';
+  </script>
+	<script src="/build/blogDetail.js"></script>
+</body>
+</html>

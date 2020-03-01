@@ -41,7 +41,7 @@ export default {
         },
         {
           text: 'About me',
-          link: '/en-us/docs/me_en.html',
+          link: '/en-us/docs/me.html',
         },
         {
           text: 'Others',
@@ -100,7 +100,7 @@ export default {
         },
         {
           text: '关于我',
-          link: '/zh-cn/docs/me_zh.html',
+          link: '/zh-cn/docs/me.html',
         },
         {
           text: '其它',

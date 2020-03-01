@@ -8,28 +8,28 @@ pages:
    description: '作者：Charlie'
   # home config
   en-us:
-   title: 'Backyard of Charlie Cheng'
+   title: 'Charlie Cheng Backyard'
    keywords: 'Charlie'
    description: 'Author: Charlie'
  community:
   # 社区页配置
   zh-cn:
    title: '社区'
-   keywords: '关键词1，关键词2'
-   description: '页面内容简介'
+   keywords: '最新动态，联系方式'
+   description: '我的最新动态以及如何能够快速联系我'
   # community page config
   en-us:
    title: 'Community'
-   keywords: 'keyword1,keyword2'
-   description: 'page description'
+   keywords: 'Latest updates,Contact'
+   description: 'My latest updates as well as contact information'
  blog:
   # 博客列表页配置
   zh-cn:
    title: '博客'
-   keywords: '关键词1，关键词2'
-   description: '页面内容简介'
+   keywords: '个人文章汇总'
+   description: '关于我对生活的看法'
   en-us:
    # blog list page config
    title: 'Blog'
-   keywords: 'keyword1,keyword2'
-   description: 'page description'
+   keywords: 'Collection of my articles'
+   description: 'About my interpretation of life'
