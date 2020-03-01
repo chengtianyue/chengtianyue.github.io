@@ -4,11 +4,11 @@
   top: 0;
   width: 100%;
   z-index: 1000;
-  background-color: #fff; }
+  background-color: #FFA500; }
   .header-container-primary {
     background-color: transparent; }
   .header-container-normal {
-    background-color: #fff;
+    background-color: #FFA500;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08); }
   .header-container .header-body {
     max-width: 1280px;
@@ -100,10 +100,10 @@
           top: 13px;
           left: 11px; }
       .header-container .header-body .search-primary .icon-search {
-        border-color: #fff;
+        border-color: #FFA500;
         opacity: 0.6; }
         .header-container .header-body .search-primary .icon-search::before {
-          background-color: #fff; }
+          background-color: #FFA500; }
         .header-container .header-body .search-primary .icon-search:hover {
           opacity: 1; }
       .header-container .header-body .search-normal .icon-search {
@@ -145,7 +145,7 @@
     display: inline-block;
     margin-right: 20px; }
   .header-container .header-body .header-menu-open ul {
-    background-color: #f8f8f8;
+    background-color: #D2691E;
     display: inline-block;
     position: absolute;
     right: 0;
@@ -165,12 +165,12 @@
     .header-container .header-body .header-menu-open li:hover {
       background: #FF8C00; }
       .header-container .header-body .header-menu-open li:hover a {
-        color: #fff;
+        color: #FFA500;
         opacity: 1; }
   .header-container .header-body .header-menu-open .menu-item-primary-active, .header-container .header-body .header-menu-open .menu-item-normal-active {
     background: #FF8C00; }
     .header-container .header-body .header-menu-open .menu-item-primary-active a, .header-container .header-body .header-menu-open .menu-item-normal-active a {
-      color: #fff;
+      color: #FFA500;
       opacity: 1; } }
 .bar {
   margin-top: 66px;
@@ -297,7 +297,7 @@
     text-align: center;
     padding: 0; } }
 .sidemenu {
-  background: #f8f8f8;
+  background: #D2691E;
   width: 295px;
   position: relative;
   display: inline-block;
@@ -311,7 +311,7 @@
     right: -40px;
     height: 30px;
     line-height: 30px;
-    background: #f8f8f8;
+    background: #D2691E;
     border-radius: 0 4px 4px 0;
     display: none; }
     .sidemenu .sidemenu-toggle img {
