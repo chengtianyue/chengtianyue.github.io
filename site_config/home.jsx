@@ -92,7 +92,7 @@ export default {
   },
   'en-us': {
     brand: {
-      brandName: 'Backyard of Charlie Cheng',
+      brandName: 'Charlie Cheng\'s Backyard',
       briefIntroduction: 'AI, Daily Life, myself',
       buttons: [
         {
