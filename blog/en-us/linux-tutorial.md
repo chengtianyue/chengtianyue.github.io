@@ -18,7 +18,7 @@ Having said so much, in fact, the most important reason: it is **free**!
 
 url: https://www.ubuntu.com/download/desktop
 
-![1](\img\linux tutorial\1.webp)
+![img](..\img\1.webp)
 
 it will be an iso file，so first we need to save our computer.
 
@@ -26,51 +26,51 @@ it will be an iso file，so first we need to save our computer.
 
 Create a New Virtual Machine in VMware.
 
-![img](\img\linux tutorial\2.webp)
+![img](..\img\2.webp)
 
 Then it will pop up the installation interface. ("Typical" is enough for most cases, here I chose "Custom" for more configuration).
 
-![img](\img\linux tutorial\3.webp)
+![img](..\img\3.webp)
 
 Click Next.
 
-![img](\img\linux tutorial\4.webp)
+![img](..\img\4.webp)
 
 Here we need to choose the iso file we previously downloaded. 
 
-![img](\img\linux tutorial\5.webp)
+![img](..\img\5.webp)
 
 Enter the Name and the password. 
 
-![img](\img\linux tutorial\6.webp)
+![img](..\img\6.webp)
 
 Choose the installation location (try to find a larger space)
 
-![img](\img\linux tutorial\7.webp)
+![img](..\img\7.webp)
 
 The number of processors is depended on use. For testing out, 1 is enough. 
 
-![img](\img\linux tutorial\8.webp)
+![img](..\img\8.webp)
 
 Memory. Still based on needs.
 
-![img](\img\linux tutorial\9.webp)
+![img](..\img\9.webp)
 
 Here we need to choose network connection. I chose bridged networking for  using ssh to connect.
 
-![img](\img\linux tutorial\10.webp)
+![img](..\img\10.webp)
 
 Keep clicking "Next".
 
-![img](\img\linux tutorial\11.webp)
+![img](..\img\11.webp)
 
 Configurating disk size. Strongly recommend to configure a larger space. （Be cautious! We can only enlarge the space but not decrease in the future）
 
-![img](\img\linux tutorial\12.webp)
+![img](..\img\12.webp)
 
 Keep clicking next until seeing this. Double check our configuration.
 
-![img](\img\linux tutorial\13.webp)
+![img](..\img\13.webp)
 
 After several minutes, your Linux machine is done!
 
@@ -80,7 +80,7 @@ Installing Dual system:
 
 2，prepare an empty USB drive (Please make sure it is empty)
 
-![img](\img\linux tutorial\14.webp)
+![img](..\img\14.webp)
 
 Download universal-USB-installer on google. Run it.
 
@@ -88,11 +88,11 @@ Download universal-USB-installer on google. Run it.
 
 (I recommend to close all the anti virus programs)
 
-![img](\img\linux tutorial\14.webp)
+![img](..\img\14.webp)
 
 Click agree.
 
-![img](\img\linux tutorial\15.webp)
+![img](..\img\15.webp)
 
 step1, choose your system (ubuntu).
 
@@ -100,13 +100,13 @@ step2, choose your iso file
 
 step3, choose your empty USB driver.
 
-![img](\img\linux tutorial\16.webp)
+![img](..\img\16.webp)
 
 It will be done after clicking "create".
 
 Then we need to download EasyBCD.
 
-![img](\img\linux tutorial\17.webp)
+![img](..\img\17.webp)
 
 Just install it at the moment. We need to use it later.
 
@@ -122,11 +122,11 @@ Restart After Installing.
 
 Open EasyBCD.
 
-![img](\img\linux tutorial\18.webp)
+![img](..\img\18.webp)
 
 Add a new config
 
-![img](\img\linux tutorial\19.webp)
+![img](..\img\19.webp)
 
 Do not change the first row. The second row is for changing names.
 
@@ -134,7 +134,7 @@ Choose your boot section in the third row.
 
 Add a new config, click "yes" after Linux.
 
-![img](\img\linux tutorial\19.webp)
+![img](..\img\19.webp)
 
 Save, Restart, and Enjoy!
 
@@ -150,15 +150,15 @@ You can use MobaXterm, Putty, Xshell, etc.
 
 I chose MobaXterm as an example.
 
-![img](\img\linux tutorial\20.webp)
+![img](..\img\20.webp)
 
 Select new session.
 
-![img](\img\linux tutorial\21.webp)
+![img](..\img\21.webp)
 
 type in your IP address. (You can check by typing ipconfig)
 
-![img](\img\linux tutorial\22.webp)
+![img](..\img\22.webp)
 
 Here we need to type in Username and Password.
 
@@ -172,11 +172,11 @@ type ctrl+alt+T to access the terminal.
 
 Type "python" to see your version.
 
-![img](\img\linux tutorial\23.webp)
+![img](..\img\23.webp)
 
 Now we can see the version is 2.7.15. Type "python3" to use python 3.6.7.
 
-![img](\img\linux tutorial\24.webp)
+![img](..\img\24.webp)
 
 We can also add some plugins to our python environment.
 
