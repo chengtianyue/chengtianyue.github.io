@@ -18,7 +18,7 @@ Having said so much, in fact, the most important reason: it is **free**!
 
 url: https://www.ubuntu.com/download/desktop
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbgU89Npr626J3ne4CC0P2aaOJLYSYJiatEuVMicbtLa2wVbjA2Vy98OMQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![1](\img\linux tutorial\1.webp)
 
 it will be an iso file，so first we need to save our computer.
 
@@ -26,51 +26,51 @@ it will be an iso file，so first we need to save our computer.
 
 Create a New Virtual Machine in VMware.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nb1LIaKmmDtte6icsPAfLJj05fOqRicJa9wIEral3cujngvqNDZNQBl6bg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\2.webp)
 
 Then it will pop up the installation interface. ("Typical" is enough for most cases, here I chose "Custom" for more configuration).
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nb7iaiaJicus08o4c2VjXEC1icibS66E2T7g18ay4Zh8xJSfJicibcTpb8pZCLw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\3.webp)
 
 Click Next.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nb88jU4ztupXvUPlj7r09lwqI7xjCPjJZiasphfp2Z57ywRCIicicBicOoHQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\4.webp)
 
 Here we need to choose the iso file we previously downloaded. 
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbOa9hWQqczwdjmRicXvsvN0Y0lAAUI2HSXSRKgWicqV1AUUj1dia33Oib6Q/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\5.webp)
 
 Enter the Name and the password. 
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nb3mIV6RaQKrj1klal65ibqE5DtLSvgwccdFq7zw6NgJJhBadictQmtcibA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\6.webp)
 
 Choose the installation location (try to find a larger space)
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbDoxczFdZLwtQMA09VLjREExePVpSicGViaP6YC7kDFdkF65wibiaicSBGRw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\7.webp)
 
 The number of processors is depended on use. For testing out, 1 is enough. 
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbAuOB9rfFJdKuwnxhdXs1BkSM9cZuX05ac5h30bzib891gs5ntjT1qcA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\8.webp)
 
 Memory. Still based on needs.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbxlicxP488WicsgDM0ibPJf4LIxQS7yIjsS7SBBLOmD80nGFrOGJxlGfNA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\9.webp)
 
 Here we need to choose network connection. I chose bridged networking for  using ssh to connect.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbxoYwDuicicdl4eT24hFfAx0ldsDTfjfV78TpFyFdAibJiaUYiaiaAbybib58A/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\10.webp)
 
 Keep clicking "Next".
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NblplpxOKOwKZowGUwU0icOnUJVbtmCBjrhAuSeFX3Rr7bmexBm0uLJ0A/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\11.webp)
 
 Configurating disk size. Strongly recommend to configure a larger space. （Be cautious! We can only enlarge the space but not decrease in the future）
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbDQibPsHvvlus86ibIbTn3t8BV1RbzgTkwCc98GkibWyAe92JpSsRGKVog/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\12.webp)
 
 Keep clicking next until seeing this. Double check our configuration.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbaX86Y7ONO4FeZSggTicLU5q0laE8Zh8VHGmBoqGCkkm8uSHNcfxLsBA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\13.webp)
 
 After several minutes, your Linux machine is done!
 
@@ -80,7 +80,7 @@ Installing Dual system:
 
 2，prepare an empty USB drive (Please make sure it is empty)
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nb724E5TnLibmMf9dvePZgEB1JO2aiajhLYGQzDEv7FwbuxFzdVMoNKiaicA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\14.webp)
 
 Download universal-USB-installer on google. Run it.
 
@@ -88,11 +88,11 @@ Download universal-USB-installer on google. Run it.
 
 (I recommend to close all the anti virus programs)
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nb724E5TnLibmMf9dvePZgEB1JO2aiajhLYGQzDEv7FwbuxFzdVMoNKiaicA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\14.webp)
 
 Click agree.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbOAdDS6w689EcWEejia6iaWbWFfjHibLVO5Xaxxp1DY6QRKRacLVfvicLgg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\15.webp)
 
 step1, choose your system (ubuntu).
 
@@ -100,13 +100,13 @@ step2, choose your iso file
 
 step3, choose your empty USB driver.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbzVrLNFx0yZZQ2LcNdTQax3VT0wr92jQ5ibEbBzdNyOHP9u3O8sqAlag/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\16.webp)
 
 It will be done after clicking "create".
 
 Then we need to download EasyBCD.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7Nbujg1sSaeIPe5PNILf3bY3GbRictgjYIgUEWDXwyPQab8vehlmicHoluQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\17.webp)
 
 Just install it at the moment. We need to use it later.
 
@@ -122,11 +122,11 @@ Restart After Installing.
 
 Open EasyBCD.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbUFkrUlWwK0yBC9PqB3y4XTQMMqWJxBoyF12kzXDUyuqzWW4VTL4kDA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\18.webp)
 
 Add a new config
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbictuhurC1htzcvmAgYm0VJSCEagjgnpKxclkYoOUtxB1oK9Kict9zicFA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\19.webp)
 
 Do not change the first row. The second row is for changing names.
 
@@ -134,7 +134,7 @@ Choose your boot section in the third row.
 
 Add a new config, click "yes" after Linux.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbWb0sJOytcRNPg94y9UicFBLYaOerWvq36bD2MLUFSKMyKqNZL2exVOQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\19.webp)
 
 Save, Restart, and Enjoy!
 
@@ -150,15 +150,15 @@ You can use MobaXterm, Putty, Xshell, etc.
 
 I chose MobaXterm as an example.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbnzQxHylqJN9cjLFLRrmxJq0xvOEN7NMXzibiaHtxhwWmxN3ua1vchibEA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\20.webp)
 
 Select new session.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbkB5hBDkvj1DeftaCZNBQaSzTXGuotxksPGf87IRM4xzgdXKXn9Vfgg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\21.webp)
 
 type in your IP address. (You can check by typing ipconfig)
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbBzJrICWENsdV4P7eib6Ptg5PD41WFths10iaOVCgVCUF1Ny39yMOyYXw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\22.webp)
 
 Here we need to type in Username and Password.
 
@@ -172,11 +172,11 @@ type ctrl+alt+T to access the terminal.
 
 Type "python" to see your version.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbZxbpLdzxPibmX3qIp09rab0UIC6sTgxX9rqQvwoYO98sD8VjNs6m86A/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\23.webp)
 
 Now we can see the version is 2.7.15. Type "python3" to use python 3.6.7.
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbcyorkQFBEHnE00YNOOCXY3iciczoZZD1OXV4MOTSLVAI3JxSQOgDoYSQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](\img\linux tutorial\24.webp)
 
 We can also add some plugins to our python environment.
 
