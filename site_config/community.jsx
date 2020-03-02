@@ -7,7 +7,7 @@ export default {
       title: 'Latest Blogs',
       list: [
         {
-          img: 'http://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbqgicQaoPKXJGib1Bl5pghlnXVLrK8lvfNzkQ6icL8Z0l3sSk95L4CasVQ/0?wx_fmt=jpeg',
+          img: '\img\linux tutorial\linux_tutorial.jpg',
           title: 'A quick Linux Startup (for especially High School Students)',
           content: 'A brief introduction to set up a Linux environment',
           dateStr: 'May 17th，2019',
