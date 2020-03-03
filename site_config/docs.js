@@ -2,7 +2,7 @@ export default {
   'en-us': {
     sidemenu: [
       {
-        title: 'Docs List',
+        title: 'Articles list',
         children: [
           {
             title: 'About me',
@@ -14,6 +14,19 @@ export default {
               {
                 title: 'My Wechat-public-account',
                 link: '/en-us/docs/wechat.html',
+              },
+            ],
+          },
+          {
+            title: 'Photography',
+            children: [
+              {
+                title: 'Beijing WTown',
+                link: '/en-us/docs/Beijing WTown.html',
+              },
+              {
+                title: 'Seoul Street Photography',
+                link: '/en-us/docs/Seoul.html',
               },
             ],
           },

@@ -53,8 +53,8 @@ export default {
         },
         {
           img: '/img/feature_maintenance.png',
-          title: '日常',
-          content: '一个高中生的日常生活',
+          title: '摄影作品',
+          content: '日常所见',
         },
       ],
     },
@@ -139,8 +139,8 @@ export default {
         },
         {
           img: '/img/feature_maintenance.png',
-          title: 'Daily life',
-          content: 'life of a high school student in China',
+          title: 'Photography',
+          content: 'Pictures in my life',
         }
       ]
     },
