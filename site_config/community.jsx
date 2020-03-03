@@ -7,7 +7,7 @@ export default {
       title: 'Latest Blogs',
       list: [
         {
-          img: '\img\linux tutorial\linux_tutorial.jpg',
+          img: '/blog/img//linux_tutorial.png',
           title: 'A quick Linux Startup (for especially High School Students)',
           content: 'A brief introduction to set up a Linux environment',
           dateStr: 'May 17th，2019',

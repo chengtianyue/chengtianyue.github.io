@@ -23,84 +23,84 @@
 <h3>VMware安装方法：</h3>
 <p>1，下载</p>
 <p>地址：<a href="https://www.ubuntu.com/download/desktop">https://www.ubuntu.com/download/desktop</a></p>
-<p><img src="..%5Cimg%5C1.webp" alt="img"></p>
+<p><img src="../img/1.png" alt="img"></p>
 <p>下载之后是一个iso的镜像文件，先存到一个自己比较熟悉的位置（桌面）</p>
 <p>2，配置</p>
 <p>打开vmware，选择新建虚拟机</p>
-<p><img src="..%5Cimg%5C2.webp" alt="img"></p>
+<p><img src="../img/2.png" alt="img"></p>
 <p>然后会弹出一个安装选择的界面，这里我选择高级模式（平时做一些基本的其实用typical足够了）</p>
-<p><img src="..%5Cimg%5C3.webp" alt="img"></p>
+<p><img src="../img/3.png" alt="img"></p>
 <p>点击确定</p>
-<p><img src="..%5Cimg%5C4.webp" alt="img"></p>
+<p><img src="../img/4.png" alt="img"></p>
 <p>这里添加自己刚刚下载好的镜像，然后确定</p>
-<p><img src="..%5Cimg%5C5.webp" alt="img"></p>
+<p><img src="../img/5.png" alt="img"></p>
 <p>用户名密码</p>
-<p><img src="..%5Cimg%5C6.webp" alt="img"></p>
+<p><img src="../img/6.png" alt="img"></p>
 <p>选择安装地址（最好剩余空间大一些）</p>
-<p><img src="..%5Cimg%5C7.webp" alt="img"></p>
+<p><img src="../img/7.png" alt="img"></p>
 <p>这里配置cpu核数，取决于用途。如果就是玩玩其实一个cpu够了，做训练如果在cpu上建议多弄几个</p>
-<p><img src="..%5Cimg%5C8.webp" alt="img"></p>
+<p><img src="../img/8.png" alt="img"></p>
 <p>内存，还是看个人需要，建议4GB以上</p>
-<p><img src="..%5Cimg%5C9.webp" alt="img"></p>
+<p><img src="../img/9.png" alt="img"></p>
 <p>这里配置网络连接方式，我这里使用桥接，这样更方便使用ssh</p>
-<p><img src="..%5Cimg%5C10.webp" alt="img"></p>
+<p><img src="../img/10.png" alt="img"></p>
 <p>一路确定</p>
-<p><img src="..%5Cimg%5C11.webp" alt="img"></p>
+<p><img src="../img/11.png" alt="img"></p>
 <p>硬盘的内存，这个得给大点，至少20个GB，不然用不了两下就空间满了（这个位置建议先保守一点，后期修改大小只能调大，不能调小！！）</p>
-<p><img src="..%5Cimg%5C12.webp" alt="img"></p>
+<p><img src="../img/12.png" alt="img"></p>
 <p>一路确定后来到这个界面，检查自己的配置</p>
-<p><img src="..%5Cimg%5C13.webp" alt="img"></p>
+<p><img src="../img/13.png" alt="img"></p>
 <p>过几分钟，你的linux就安装完成了！</p>
 <p>双系统安装方法：</p>
 <p>1，老规矩，下载镜像（网址在上面）</p>
 <p>2，准备一个空的U盘（一定要是空的，不然容易出问题）</p>
-<p><img src="..%5Cimg%5C14.webp" alt="img"></p>
+<p><img src="../img/14.png" alt="img"></p>
 <p>百度搜索universal-USB-installer，启动</p>
 <p>*很多usb安装盘工具不兼容ubuntu，大家一定看好自己的工具能不能用，这里universal-USB-installer是百分之100可以用的。建议大家下载</p>
 <p>（建议这个时候暂时把360等杀毒软件关掉）</p>
-<p><img src="..%5Cimg%5C14.webp" alt="img"></p>
+<p><img src="../img/14.png" alt="img"></p>
 <p>点击同意</p>
-<p><img src="..%5Cimg%5C15.webp" alt="img"></p>
+<p><img src="../img/15.png" alt="img"></p>
 <p>step1选择自己要装得系统(ubuntu)</p>
 <p>step2选择镜像（刚刚下载过）</p>
 <p>step3选择usb（一定清空了啊）</p>
-<p><img src="..%5Cimg%5C16.webp" alt="img"></p>
+<p><img src="../img/16.png" alt="img"></p>
 <p>然后点击create就做好了！</p>
 <p>接着下载软件EasyBCD</p>
-<p><img src="..%5Cimg%5C17.webp" alt="img"></p>
+<p><img src="../img/17.png" alt="img"></p>
 <p>这个下载安装好就可以了，到后期使用。</p>
 <p>现在电脑重启，重启完跳出系统界面时候疯狂按f12（这里不同电脑不一样，大家可以到百度上搜如何让电脑从u盘启动。thinkpad是f12，貌似别的电脑有f2,f3等）</p>
 <p>从U盘启动后选择安装ubuntu</p>
 <p>（一路确定+设置用户名）</p>
-<p>#在设置分区的时候需要特别注意，给自己分配一个boot区用来启动（1GB左右），一定要有一个交换空间swap(我用了5GB),然后就是主空间（根据个人需求设定）</p>
+<p>/#在设置分区的时候需要特别注意，给自己分配一个boot区用来启动（1GB左右），一定要有一个交换空间swap(我用了5GB),然后就是主空间（根据个人需求设定）</p>
 <p>安装完成后重启电脑，打开windows</p>
 <p>打开安装好的easyBCD</p>
-<p><img src="..%5Cimg%5C18.webp" alt="img"></p>
+<p><img src="../img/18.png" alt="img"></p>
 <p>点击添加新条目</p>
-<p><img src="..%5Cimg%5C19.webp" alt="img"></p>
+<p><img src="../img/19.png" alt="img"></p>
 <p>第一行不要改，第二行可以改名字也可以不改</p>
 <p>第三行选择自己配置的boot分区</p>
 <p>然后添加条目，回到主界面，在linux那个后面打√</p>
-<p><img src="..%5Cimg%5C19.webp" alt="img"></p>
+<p><img src="../img/19.png" alt="img"></p>
 <p>保存设置，重启，大功告正！</p>
 <p>另附ssh连接方法</p>
 <p>windows自带的远程电脑连接器用不了，所以需要下载点工具。</p>
 <p>比较常见的有mobaxterm, putty， xshell（都可以）</p>
 <p>我这里用mobaxterm演示</p>
-<p><img src="..%5Cimg%5C20.webp" alt="img"></p>
+<p><img src="../img/20.png" alt="img"></p>
 <p>打开后选择new session,新建一个会话</p>
-<p><img src="..%5Cimg%5C21.webp" alt="img"></p>
+<p><img src="../img/21.png" alt="img"></p>
 <p>这里输入自己的主机ip地址（如果不知道可以在终端输入ifconfig查看）</p>
-<p><img src="..%5Cimg%5C22.webp" alt="img"></p>
+<p><img src="../img/22.png" alt="img"></p>
 <p>这里输入用户名和密码就ok了</p>
 <h5>看到这里你已经完成了一大半，后面就是配置python了！</h5>
 <p>其实当你安装好了镜像，系统已经为你安装好了一大批软件（浏览器、文件查看器、python等。新版的还帮你安装好了caliberoffice）</p>
 <p>这时候按住ctrl+alt+T进入终端（桌面右键也可以）</p>
 <p>（我这里用ssh演示一下）</p>
 <p>先输入python查看自己python的版本</p>
-<p><img src="..%5Cimg%5C23.webp" alt="img"></p>
+<p><img src="../img/23.png" alt="img"></p>
 <p>哈，是python2，显然用的人不是很多了，大部分人还是喜欢用python3，所以这时候输入python3即可（先关掉运行的python2,输入ctrl+c结束运行）</p>
-<p><img src="..%5Cimg%5C24.webp" alt="img"></p>
+<p><img src="../img/24.png" alt="img"></p>
 <p>看来镜像里还是有python3的，这时候我们可以通过加插件来让我们的python变得强大</p>
 <p>在这里建议各位安装anaconda或者virtualenv</p>
 <p>virtualenv安装方法：</p>

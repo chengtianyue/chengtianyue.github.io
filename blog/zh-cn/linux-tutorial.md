@@ -20,7 +20,7 @@ linux相信大家都不陌生。在机器学习和数据分析上都有很大作
 
 地址：https://www.ubuntu.com/download/desktop
 
-![img](..\img\1.webp)
+![img](../img/1.png)
 
 下载之后是一个iso的镜像文件，先存到一个自己比较熟悉的位置（桌面）
 
@@ -28,51 +28,51 @@ linux相信大家都不陌生。在机器学习和数据分析上都有很大作
 
 打开vmware，选择新建虚拟机
 
-![img](..\img\2.webp)
+![img](../img/2.png)
 
 然后会弹出一个安装选择的界面，这里我选择高级模式（平时做一些基本的其实用typical足够了）
 
-![img](..\img\3.webp)
+![img](../img/3.png)
 
 点击确定
 
-![img](..\img\4.webp)
+![img](../img/4.png)
 
 这里添加自己刚刚下载好的镜像，然后确定
 
-![img](..\img\5.webp)
+![img](../img/5.png)
 
 用户名密码
 
-![img](..\img\6.webp)
+![img](../img/6.png)
 
 选择安装地址（最好剩余空间大一些）
 
-![img](..\img\7.webp)
+![img](../img/7.png)
 
 这里配置cpu核数，取决于用途。如果就是玩玩其实一个cpu够了，做训练如果在cpu上建议多弄几个
 
-![img](..\img\8.webp)
+![img](../img/8.png)
 
 内存，还是看个人需要，建议4GB以上
 
-![img](..\img\9.webp)
+![img](../img/9.png)
 
 这里配置网络连接方式，我这里使用桥接，这样更方便使用ssh
 
-![img](..\img\10.webp)
+![img](../img/10.png)
 
 一路确定
 
-![img](..\img\11.webp)
+![img](../img/11.png)
 
 硬盘的内存，这个得给大点，至少20个GB，不然用不了两下就空间满了（这个位置建议先保守一点，后期修改大小只能调大，不能调小！！）
 
-![img](..\img\12.webp)
+![img](../img/12.png)
 
 一路确定后来到这个界面，检查自己的配置
 
-![img](..\img\13.webp)
+![img](../img/13.png)
 
 过几分钟，你的linux就安装完成了！
 
@@ -82,7 +82,7 @@ linux相信大家都不陌生。在机器学习和数据分析上都有很大作
 
 2，准备一个空的U盘（一定要是空的，不然容易出问题）
 
-![img](..\img\14.webp)
+![img](../img/14.png)
 
 百度搜索universal-USB-installer，启动
 
@@ -90,11 +90,11 @@ linux相信大家都不陌生。在机器学习和数据分析上都有很大作
 
 （建议这个时候暂时把360等杀毒软件关掉）
 
-![img](..\img\14.webp)
+![img](../img/14.png)
 
 点击同意
 
-![img](..\img\15.webp)
+![img](../img/15.png)
 
 step1选择自己要装得系统(ubuntu)
 
@@ -102,13 +102,13 @@ step2选择镜像（刚刚下载过）
 
 step3选择usb（一定清空了啊）
 
-![img](..\img\16.webp)
+![img](../img/16.png)
 
 然后点击create就做好了！
 
 接着下载软件EasyBCD
 
-![img](..\img\17.webp)
+![img](../img/17.png)
 
 这个下载安装好就可以了，到后期使用。
 
@@ -118,17 +118,17 @@ step3选择usb（一定清空了啊）
 
 （一路确定+设置用户名）
 
-\#在设置分区的时候需要特别注意，给自己分配一个boot区用来启动（1GB左右），一定要有一个交换空间swap(我用了5GB),然后就是主空间（根据个人需求设定）
+/#在设置分区的时候需要特别注意，给自己分配一个boot区用来启动（1GB左右），一定要有一个交换空间swap(我用了5GB),然后就是主空间（根据个人需求设定）
 
 安装完成后重启电脑，打开windows
 
 打开安装好的easyBCD
 
-![img](..\img\18.webp)
+![img](../img/18.png)
 
 点击添加新条目
 
-![img](..\img\19.webp)
+![img](../img/19.png)
 
 第一行不要改，第二行可以改名字也可以不改
 
@@ -136,7 +136,7 @@ step3选择usb（一定清空了啊）
 
 然后添加条目，回到主界面，在linux那个后面打√
 
-![img](..\img\19.webp)
+![img](../img/19.png)
 
 保存设置，重启，大功告正！
 
@@ -152,15 +152,15 @@ windows自带的远程电脑连接器用不了，所以需要下载点工具。
 
 我这里用mobaxterm演示
 
-![img](..\img\20.webp)
+![img](../img/20.png)
 
 打开后选择new session,新建一个会话
 
-![img](..\img\21.webp)
+![img](../img/21.png)
 
 这里输入自己的主机ip地址（如果不知道可以在终端输入ifconfig查看）
 
-![img](..\img\22.webp)
+![img](../img/22.png)
 
 这里输入用户名和密码就ok了
 
@@ -176,11 +176,11 @@ windows自带的远程电脑连接器用不了，所以需要下载点工具。
 
 先输入python查看自己python的版本
 
-![img](..\img\23.webp)
+![img](../img/23.png)
 
 哈，是python2，显然用的人不是很多了，大部分人还是喜欢用python3，所以这时候输入python3即可（先关掉运行的python2,输入ctrl+c结束运行）
 
-![img](..\img\24.webp)
+![img](../img/24.png)
 
 看来镜像里还是有python3的，这时候我们可以通过加插件来让我们的python变得强大
 
