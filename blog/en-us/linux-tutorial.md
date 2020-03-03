@@ -18,7 +18,7 @@ Having said so much, in fact, the most important reason: it is **free**!
 
 url: https://www.ubuntu.com/download/desktop
 
-![img](../img/1.png)
+![img](/blog/img/1.png)
 
 it will be an iso file，so first we need to save our computer.
 
@@ -26,51 +26,51 @@ it will be an iso file，so first we need to save our computer.
 
 Create a New Virtual Machine in VMware.
 
-![img](../img/2.png)
+![img](/blog/img/2.png)
 
 Then it will pop up the installation interface. ("Typical" is enough for most cases, here I chose "Custom" for more configuration).
 
-![img](../img/3.png)
+![img](/blog/img/3.png)
 
 Click Next.
 
-![img](../img/4.png)
+![img](/blog/img/4.png)
 
 Here we need to choose the iso file we previously downloaded. 
 
-![img](../img/5.png)
+![img](/blog/img/5.png)
 
 Enter the Name and the password. 
 
-![img](../img/6.png)
+![img](/blog/img/6.png)
 
 Choose the installation location (try to find a larger space)
 
-![img](../img/7.png)
+![img](/blog/img/7.png)
 
 The number of processors is depended on use. For testing out, 1 is enough. 
 
-![img](../img/8.png)
+![img](/blog/img/8.png)
 
 Memory. Still based on needs.
 
-![img](../img/9.png)
+![img](/blog/img/9.png)
 
 Here we need to choose network connection. I chose bridged networking for  using ssh to connect.
 
-![img](../img/10.png)
+![img](/blog/img/10.png)
 
 Keep clicking "Next".
 
-![img](../img/11.png)
+![img](/blog/img/11.png)
 
 Configurating disk size. Strongly recommend to configure a larger space. （Be cautious! We can only enlarge the space but not decrease in the future）
 
-![img](../img/12.png)
+![img](/blog/img/12.png)
 
 Keep clicking next until seeing this. Double check our configuration.
 
-![img](../img/13.png)
+![img](/blog/img/13.png)
 
 After several minutes, your Linux machine is done!
 
@@ -80,7 +80,7 @@ Installing Dual system:
 
 2，prepare an empty USB drive (Please make sure it is empty)
 
-![img](../img/14.png)
+![img](/blog/img/14.png)
 
 Download universal-USB-installer on google. Run it.
 
@@ -88,11 +88,11 @@ Download universal-USB-installer on google. Run it.
 
 (I recommend to close all the anti virus programs)
 
-![img](../img/14.png)
+![img](/blog/img/14.png)
 
 Click agree.
 
-![img](../img/15.png)
+![img](/blog/img/15.png)
 
 step1, choose your system (ubuntu).
 
@@ -100,13 +100,13 @@ step2, choose your iso file
 
 step3, choose your empty USB driver.
 
-![img](../img/16.png)
+![img](/blog/img/16.png)
 
 It will be done after clicking "create".
 
 Then we need to download EasyBCD.
 
-![img](../img/17.png)
+![img](/blog/img/17.png)
 
 Just install it at the moment. We need to use it later.
 
@@ -122,11 +122,11 @@ Restart After Installing.
 
 Open EasyBCD.
 
-![img](../img/18.png)
+![img](/blog/img/18.png)
 
 Add a new config
 
-![img](../img/19.png)
+![img](/blog/img/19.png)
 
 Do not change the first row. The second row is for changing names.
 
@@ -134,7 +134,7 @@ Choose your boot section in the third row.
 
 Add a new config, click "yes" after Linux.
 
-![img](../img/19.png)
+![img](/blog/img/19.png)
 
 Save, Restart, and Enjoy!
 
@@ -150,15 +150,15 @@ You can use MobaXterm, Putty, Xshell, etc.
 
 I chose MobaXterm as an example.
 
-![img](../img/20.png)
+![img](/blog/img/20.png)
 
 Select new session.
 
-![img](../img/21.png)
+![img](/blog/img/21.png)
 
 type in your IP address. (You can check by typing ipconfig)
 
-![img](../img/22.png)
+![img](/blog/img/22.png)
 
 Here we need to type in Username and Password.
 
@@ -172,11 +172,11 @@ type ctrl+alt+T to access the terminal.
 
 Type "python" to see your version.
 
-![img](../img/23.png)
+![img](/blog/img/23.png)
 
 Now we can see the version is 2.7.15. Type "python3" to use python 3.6.7.
 
-![img](../img/24.png)
+![img](/blog/img/24.png)
 
 We can also add some plugins to our python environment.
 
