@@ -7,11 +7,23 @@ export default {
       title: 'Latest Blogs',
       list: [
         {
-          img: '/blog/img//linux_tutorial.png',
+          img: '/blog/img/linux_tutorial.png',
           title: 'A quick Linux Startup (for especially High School Students)',
           content: 'A brief introduction to set up a Linux environment',
           dateStr: 'May 17th，2019',
           link: '/en-us/blog/linux-tutorial.html',
+        },
+        {
+          img: '/docs/img/Beijing_WTown/1.jpg',
+          title: 'Beijing WTown, Photography',
+          dateStr: 'Jan 17th，2020',
+          link: '/docs/en-us/Beijing WTown.html',
+        },
+        {
+          img: '/docs/img/Seoul/1.jpg',
+          title: 'Seoul Street Photography',
+          dateStr: 'March 3rd，2020',
+          link: '/docs/en-us/Seoul.html',
         },
       ]
     },
@@ -35,7 +47,7 @@ export default {
           img: '/img/wechat.png',
           imgHover: '/img/wechat_hover.png',
           title: 'Wechat Public Account',
-          link: '/en-us/docs/wechat_public_qr.html'
+          link: '/en-us/docs/wechat.html'
         },
         {
           img: '/img/weibo.png',
@@ -98,11 +110,23 @@ export default {
       title: '最新博客',
       list: [
         {
-          img: 'http://mmbiz.qpic.cn/mmbiz_jpg/TsKul87IC1sWkcl1K50LDDzwxe8mq7NbqgicQaoPKXJGib1Bl5pghlnXVLrK8lvfNzkQ6icL8Z0l3sSk95L4CasVQ/0?wx_fmt=jpeg',
+          img: '/blog/img/linux_tutorial.png',
           title: '高中生都可以看懂的linux安装教程',
           content: 'Linux入门简单介绍',
           dateStr: '2019年3月17日',
           link: '/zh-cn/blog/linux-tutorial.html',
+        },
+        {
+          img: '/docs/img/Beijing_WTown/1.jpg',
+          title: '北京古北水镇摄影',
+          dateStr: '2020年1月17日',
+          link: '/docs/zh-cn/Beijing WTown.html',
+        },
+        {
+          img: '/docs/img/Seoul/1.jpg',
+          title: '首尔街拍',
+          dateStr: 'March 3rd，2020',
+          link: '/docs/zh-cn/Seoul.html',
         },
       ]
     },
@@ -126,7 +150,7 @@ export default {
           img: '/img/wechat.png',
           imgHover: '/img/wechat_hover.png',
           title: '微信公众号',
-          link: '/en-us/docs/wechat_public_qr.html'
+          link: '/zh-cn/docs/wechat.html'
         },
         {
           img: '/img/weibo.png',

@@ -1,2 +1,2 @@
 Hi, Welcome to visit my websites.
-The article list is on the side. Check out the list on the side!
+The article list is on the side. Check it out!

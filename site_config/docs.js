@@ -53,6 +53,19 @@ export default {
               },
             ],
           },
+          {
+            title: '摄影作品',
+            children: [
+              {
+                title: '北京古北水镇',
+                link: '/zh-cn/docs/Beijing WTown.html',
+              },
+              {
+                title: '首尔街拍',
+                link: '/zh-cn/docs/Seoul.html',
+              },
+            ],
+          },
         ],
       },
     ],
