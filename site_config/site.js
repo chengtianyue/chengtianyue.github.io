@@ -14,7 +14,7 @@ export default {
       },
       {
         key: 'docs',
-        text: 'DOCS',
+        text: 'POSTS',
         link: '/en-us/docs/openning.html',
       },
       {
