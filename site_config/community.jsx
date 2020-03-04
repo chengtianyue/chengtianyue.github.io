@@ -4,7 +4,7 @@ export default {
   'en-us': {
     barText: 'Community',
     events: {
-      title: 'Latest Blogs',
+      title: 'Latest Posts',
       list: [
         {
           img: '/blog/img/linux_tutorial.png',
@@ -24,6 +24,18 @@ export default {
           title: 'Seoul Street Photography',
           dateStr: 'March 3rd，2020',
           link: '/docs/en-us/Seoul.html',
+        },
+        {
+          img: '/docs/img/dark humor/1.jpg',
+          title: 'Dark Humor: Stanford Rich Students, Trump and Iran, Boxing Grannies',
+          dateStr: 'March 4th，2020',
+          link: '/docs/en-us/Dark Humor.html',
+        },
+        {
+          img: '/docs/img/ptm1/1.jpg',
+          title: 'Beijing No.4 High School International Campus parents meeting introduction video ',
+          dateStr: 'March 4th，2020',
+          link: '/docs/en-us/Parents_meeting_video.html',
         },
       ]
     },
@@ -125,8 +137,20 @@ export default {
         {
           img: '/docs/img/Seoul/1.jpg',
           title: '首尔街拍',
-          dateStr: 'March 3rd，2020',
+          dateStr: '2020年3月3日',
           link: '/docs/zh-cn/Seoul.html',
+        },
+        {
+          img: '/docs/img/dark humor/1.jpg',
+          title: '黑暗讽刺： 斯坦福的有钱学生, 特朗普与伊朗, 拳击的老人们',
+          dateStr: '2020年3月4日',
+          link: '/docs/zh-cn/Dark Humor.html',
+        },
+        {
+          img: '/docs/img/ptm1/1.jpg',
+          title: '北京四中国际校区2021届家长会总结视频(3/07/2019)',
+          dateStr: '2020年3月4日',
+          link: '/docs/zh-cn/Parents_meeting_video.html',
         },
       ]
     },
