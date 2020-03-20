@@ -9,5 +9,3 @@
 ![](/docs/img/Beijing_WTown/9.jpg)
 
 ##### ALL PICTURES ARE TAKEN BY CHARLIE CHENG. DO NOT COPY WITHOUT PERMISSION.
-
-<script data-ad-client="ca-pub-7296276665129873" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
