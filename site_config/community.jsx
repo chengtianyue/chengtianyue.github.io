@@ -81,7 +81,7 @@ export default {
         {
           img: '/img/issue.png',
           title: 'Issue',
-          content: <span>send am issue on Github</span>,
+          content: <span>send an issue on Github</span>,
         },
         {
           img: '/img/wechat.png',
@@ -96,10 +96,10 @@ export default {
       ],
     },
     ecos: {
-      title: 'My mini programs',
+      title: 'Programs I had been working on',
       list: [
         {
-          title: 'Github urls',
+          title: 'some Github urls',
           tags: [
             {
               text: 'Happy New Year (Wechat profile photo cropper)',
@@ -110,6 +110,11 @@ export default {
               text: 'Steve\'s Low AP 4 Generator',
               link: 'https://github.com/chengtianyue/Steve-s-lowAP4-generator',
               bgColor: '#7FFF00',
+            },
+            {
+              text: 'Polyhedron Dice Classificator',
+              link: 'https://github.com/chengtianyue/PolyhedronDiceClassification_VGG16',
+              bgColor: '#4169E1',
             },
           ],
         },
@@ -142,7 +147,7 @@ export default {
         },
         {
           img: '/docs/img/dark humor/1.jpg',
-          title: '黑暗讽刺： 斯坦福的有钱学生, 特朗普与伊朗, 拳击的老人们',
+          title: '黑暗讽刺：坦福的有钱学生, 特朗普与伊朗, 拳击的老人们',
           dateStr: '2020年3月4日',
           link: '/docs/zh-cn/Dark Humor.html',
         },
@@ -225,6 +230,11 @@ export default {
               text: 'Low AP 4 作文生成器',
               link: 'https://github.com/chengtianyue/Steve-s-lowAP4-generator',
               bgColor: '#7FFF00',
+            },
+            {
+              text: '多面体骰子分类器',
+              link: 'https://github.com/chengtianyue/PolyhedronDiceClassification_VGG16',
+              bgColor: '#4169E1',
             },
           ],
         },

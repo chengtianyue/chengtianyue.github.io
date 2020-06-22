@@ -2,7 +2,7 @@ export default {
   'en-us': {
     sidemenu: [
       {
-        title: 'Posts List',
+        title: 'Article List',
         children: [
           {
             title: 'About me',
@@ -46,7 +46,7 @@ export default {
         ],
       },
     ],
-    barText: 'All Posts',
+    barText: 'Docs',
   },
   'zh-cn': {
     sidemenu: [

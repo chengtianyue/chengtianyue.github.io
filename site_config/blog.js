@@ -1,7 +1,7 @@
 export default {
   'en-us': {
     barText: 'Blogs',
-    postsTitle: 'All posts',
+    postsTitle: 'All Articles',
     list: [
       {
         title: 'A quick Linux Startup (for especially High School Students)',

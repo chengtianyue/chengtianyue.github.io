@@ -165,7 +165,7 @@ $animation5Height: 460px;
     }
   }
   .introduction-section {
-    background: #F9FAFA;
+    background: #FFEFD5;
     .introduction-body {
       max-width: $contentWidth;
       box-sizing: border-box;
@@ -211,14 +211,14 @@ $animation5Height: 460px;
           opacity: 0.56;
           font-family: Avenir-Medium;
           font-size: 18px;
-          color: #999;
+          color: rgb(121, 121, 121);
         }
       }
       img {
-        width: 562px;
+        width: 442px;
         margin: 0 82px;
         max-width: 100%;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
+        box-shadow: 0 8px 16px 0 rgba(39, 36, 36, 0.05);
       }
       @media screen and (max-width: 1106px){
         .introduction {

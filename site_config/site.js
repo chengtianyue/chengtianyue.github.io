@@ -14,8 +14,8 @@ export default {
       },
       {
         key: 'docs',
-        text: 'POSTS',
-        link: '/en-us/docs/openning.html',
+        text: 'DOCS',
+        link: '/en-us/docs/me_en.html',
       },
       {
         key: 'blog',
@@ -74,7 +74,7 @@ export default {
       {
         key: 'docs',
         text: '文档',
-        link: '/zh-cn/docs/openning.html',
+        link: '/zh-cn/docs/me_en.html',
       },
       {
         key: 'blog',

@@ -1802,7 +1802,7 @@ h1, h2, h3, h4, h5, h6 {
       margin-right: 0; }
 
 .home-page .introduction-section {
-  background: #F9FAFA; }
+  background: #FFEFD5; }
   .home-page .introduction-section .introduction-body {
     max-width: 1280px;
     box-sizing: border-box;
@@ -1845,12 +1845,12 @@ h1, h2, h3, h4, h5, h6 {
         opacity: 0.56;
         font-family: Avenir-Medium;
         font-size: 18px;
-        color: #999; }
+        color: #797979; }
     .home-page .introduction-section .introduction-body img {
-      width: 562px;
+      width: 442px;
       margin: 0 82px;
       max-width: 100%;
-      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05); }
+      box-shadow: 0 8px 16px 0 rgba(39, 36, 36, 0.05); }
     @media screen and (max-width: 1106px) {
       .home-page .introduction-section .introduction-body .introduction {
         display: inline-block;
