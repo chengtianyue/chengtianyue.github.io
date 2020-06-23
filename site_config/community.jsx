@@ -90,8 +90,8 @@ export default {
         },
         {
           img: '/img/pullrequest.png',
-          title: 'Pull Request',
-          content: <span>pull request in github</span>,
+          title: 'Leave a comment',
+          content: <span>Leave a comment below</span>,
         },
       ],
     },
@@ -210,8 +210,8 @@ export default {
         },
         {
           img: '/img/pullrequest.png',
-          title: 'Pull Request',
-          content: <span>github上发pull request</span>,
+          title: '写留言',
+          content: <span>页面下方的留言区（大陆用户暂未开放）</span>,
         },
       ],
     },

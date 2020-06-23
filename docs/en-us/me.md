@@ -1,3 +1,8 @@
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0" nonce="VWLIwffb"></script>
+
+
 I am Charlie, a student from Beijing No.4 High School. My hobbies are playing basketball, coding, playing games, making videos, etc. Since I am interested in AI and AI technology, I created this site for sharing my own view of this field.
 
 <img src="img/me.jpg" alt="me" style="zoom:50%;" />
@@ -17,3 +22,4 @@ YouTube：https://www.youtube.com/channel/UC_x-F9jxkskJYnnrn3GkbDA?view_as=subsc
 Bilibili：https://space.bilibili.com/27081170
 
 GitHub: https://github.com/chengtianyue
+<div class="fb-comments" data-href="http://charliecheng.ga/en-us/docs/me_en.html" data-numposts="10" data-width=""></div>
