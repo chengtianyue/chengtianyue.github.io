@@ -43,10 +43,6 @@ export default {
           text: 'About me',
           link: '/en-us/docs/me.html',
         },
-        {
-          text: 'Others',
-          link: '/en-us/docs/dir/demo3.html',
-        },
       ],
     },
     resources: {
@@ -74,7 +70,7 @@ export default {
       {
         key: 'docs',
         text: '文档',
-        link: '/zh-cn/docs/me_en.html',
+        link: '/zh-cn/docs/me.html',
       },
       {
         key: 'blog',
@@ -101,10 +97,6 @@ export default {
         {
           text: '关于我',
           link: '/zh-cn/docs/me.html',
-        },
-        {
-          text: '其它',
-          link: '/zh-cn/docs/dir/demo3.html',
         },
       ],
     },

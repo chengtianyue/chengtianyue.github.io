@@ -1,6 +1,11 @@
 {
   "en-us": [
     {
+      "filename": "2048_en.md",
+      "link": "\\en-us\\docs\\2048_en.html",
+      "meta": {}
+    },
+    {
       "filename": "Beijing WTown.md",
       "link": "\\en-us\\docs\\Beijing WTown.html",
       "meta": {}
@@ -21,6 +26,16 @@
       "meta": {}
     },
     {
+      "filename": "ic_chipsad_video.md",
+      "link": "\\en-us\\docs\\ic_chipsad_video.html",
+      "meta": {}
+    },
+    {
+      "filename": "ic_study_tour_video.md",
+      "link": "\\en-us\\docs\\ic_study_tour_video.html",
+      "meta": {}
+    },
+    {
       "filename": "me.md",
       "link": "\\en-us\\docs\\me.html",
       "meta": {}
@@ -36,6 +51,16 @@
       "meta": {}
     },
     {
+      "filename": "Parents_meeting_video_2.md",
+      "link": "\\en-us\\docs\\Parents_meeting_video_2.html",
+      "meta": {}
+    },
+    {
+      "filename": "Parents_meeting_video_3.md",
+      "link": "\\en-us\\docs\\Parents_meeting_video_3.html",
+      "meta": {}
+    },
+    {
       "filename": "Seoul.md",
       "link": "\\en-us\\docs\\Seoul.html",
       "meta": {}
@@ -47,6 +72,11 @@
     }
   ],
   "zh-cn": [
+    {
+      "filename": "2048_zh.md",
+      "link": "\\zh-cn\\docs\\2048_zh.html",
+      "meta": {}
+    },
     {
       "filename": "Beijing WTown.md",
       "link": "\\zh-cn\\docs\\Beijing WTown.html",
@@ -63,6 +93,16 @@
       "meta": {}
     },
     {
+      "filename": "ic_chipsad_video.md",
+      "link": "\\zh-cn\\docs\\ic_chipsad_video.html",
+      "meta": {}
+    },
+    {
+      "filename": "ic_study_tour_video.md",
+      "link": "\\zh-cn\\docs\\ic_study_tour_video.html",
+      "meta": {}
+    },
+    {
       "filename": "me.md",
       "link": "\\zh-cn\\docs\\me.html",
       "meta": {}
@@ -75,6 +115,16 @@
     {
       "filename": "Parents_meeting_video.md",
       "link": "\\zh-cn\\docs\\Parents_meeting_video.html",
+      "meta": {}
+    },
+    {
+      "filename": "Parents_meeting_video_2.md",
+      "link": "\\zh-cn\\docs\\Parents_meeting_video_2.html",
+      "meta": {}
+    },
+    {
+      "filename": "Parents_meeting_video_3.md",
+      "link": "\\zh-cn\\docs\\Parents_meeting_video_3.html",
       "meta": {}
     },
     {

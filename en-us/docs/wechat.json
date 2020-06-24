@@ -1,6 +1,6 @@
 {
   "filename": "wechat.md",
-  "__html": "<p>Scan the QR code to subscribe my Wechat-Official-Account. New posts are updated every week!</p>\n<p><img src=\"/docs/img/wechat.png\" alt=\"\"></p>\n",
+  "__html": "<p>Scan the QR code to subscribe my Wechat-Official-Account. New posts are updated every week!</p>\n<img src=\"/docs/img/wechat.png\" width=\"50%\" height=\"50%\" />",
   "link": "\\en-us\\docs\\wechat.html",
   "meta": {}
 }

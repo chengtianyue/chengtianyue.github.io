@@ -1,0 +1,6 @@
+{
+  "filename": "2048_en.md",
+  "__html": "<h1>2048  Game</h1>\n<p>​\t<em>2048</em> is a very popular game around the globe. It was originally released on March 20, 2014. The original 2048 was first published on GitHub by Gabriele Cirulli, and was later Ported to various platforms. The game is a new digital game based on the gameplay of <em>1024</em> and <em>Little 3 Saga</em>.</p>\n<p>​\tControl the numbers by moving the numbers up, down, left, right, and up on the keyboard. The player wins if the maximum number on the gird reaches 2048.</p>\n<p><a href=\"/programs/2048.html\">2048 Game Demo Link</a></p>\n",
+  "link": "\\en-us\\docs\\2048_en.html",
+  "meta": {}
+}

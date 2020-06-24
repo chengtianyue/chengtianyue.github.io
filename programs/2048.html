@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2048 Game Demo</title>
+</head>
+<body align = 'center' style = "margin:50px">
+	<canvas id = "canvas" width = "400px" height = "400 px" align = "center" style = "border:2px solid black; text-align = center"> </canvas>
+
+</body>
+<p> 2048 game </p>
+<p> use arrows(↑ ↓ ← →)to control </p>
+<p> Author: Tianyue Cheng </p>
+<script>
+	canvas = document.getElementById("canvas");
+	ctx = canvas.getContext('2d');
+	var dis = [
+	[0,0,0,2],
+	[0,0,0,0],
+	[0,0,0,0],
+	[0,0,0,0]
+	]
+	var color = ["rgb(245,222,179)","rgb(244,164,96)","rgb(233,150,122)","rgb(255,160,122)","rgb(255,165,0)","rgb(255,127,80)","rgb(255,99,71)","rgb(255,0,0)","rgb(238,44,44)","rgb(205,51,51)","rgb(139,35,35)","rgb(139,35,35)"];
+
+	function display(){
+		console.log(dis);
+		for(var j = 0;j < 4; j++){
+			for(var i =0;i < 4;i++){
+				if(dis[i][j]!=0){
+					ctx.fillStyle = color[Math.log2(dis[i][j])];
+				}
+				else{
+					ctx.fillStyle = "rgb(230,230,230)";
+				}
+				ctx.fillRect(i*100+2,j*100+2,96,96);
+
+				if(dis[i][j]!=0){
+					ctx.font = "20px Consolas";
+					ctx.fillStyle = "black";
+					ctx.textAlign = "center";
+					ctx.fillText(dis[i][j],i*100+50,j*100+60)
+				}
+			}
+		}
+	}
+
+	function right(){
+		for(var i =0;i<4;i++){
+			var ar = [0,0,0,0];
+			var vr = [];
+			for(var j=0;j<4;j++){
+				if(dis[j][i]!=0){
+					vr.push(dis[j][i]);
+				}
+				ar[j] = dis[j][i];
+			}
+			var tr=[];
+			for(var k =vr.length-1;k>=0;k--){
+				tr.push(vr[k]);
+			}
+			for(var k=0;k<vr.length;k++){
+				vr[k] = tr[k];
+			}
+
+			var l = vr.length;
+			if(l>1){
+				if(l==2){
+					if(vr[0]==vr[1]){
+						vr[0] = 2*vr[0];
+						vr[1] = 0;
+					}
+				}
+				else if(l==3){
+					if(vr[0] == vr[1]){
+						vr[0] = 2*vr[0];
+						vr[1] = vr[2];
+						vr[2] = 0;
+					}
+					else if(vr[1] == vr[2]){
+						vr[1] = 2*vr[1];
+						vr[2] = 0;
+					}
+				}
+				else{
+					if(vr[0]==vr[1]){
+						if(vr[2]==vr[3]){
+							vr[0] = 2*vr[0];
+							vr[1] = 2*vr[2];
+							vr[2] = 0;
+							vr[3] = 0;
+						}
+						else{
+							vr[0]=2*vr[0];
+							vr[1]=vr[2];
+							vr[2]=vr[3];
+							vr[3]=0;
+						}
+					}
+					else if(vr[1] == vr[2]){
+						vr[1]=2*vr[2];
+						vr[2]=vr[3];
+						vr[3]=0;
+					}
+					else if(vr[2]==vr[3]){
+						vr[3]=2*vr[2];
+						vr[3]=0;
+					}
+				}
+				
+			}
+		
+
+			for(var k=0;k<4-l;k++){
+				vr.push(0);
+			}
+			tr=[];
+			for(var k =vr.length-1;k>=0;k--){
+				tr.push(vr[k]);
+			}
+			for(var k=0;k<vr.length;k++){
+				vr[k] = tr[k];
+			}
+			for(var k =0;k<4;k++){
+				dis[k][i] = vr[k];
+			}
+		}
+	}
+
+	function down(){
+		for(var i=0;i<4;i++){
+			var ar = [0,0,0,0];
+			var vr = [];
+			for(var j=0;j<4;j++){
+				if(dis[i][j]!=0){
+					vr.push(dis[i][j]);
+				}
+				ar[j] = dis[i][j];
+			}
+			var tr=[];
+			for(var k =vr.length-1;k>=0;k--){
+				tr.push(vr[k]);
+			}
+			for(var k=0;k<vr.length;k++){
+				vr[k] = tr[k];
+			}
+
+			var l = vr.length;
+			if(l>1){
+				if(l==2){
+					if(vr[0]==vr[1]){
+						vr[0] = 2*vr[0];
+						vr[1] = 0;
+					}
+				}
+				else if(l==3){
+					if(vr[0] == vr[1]){
+						vr[0] = 2*vr[0];
+						vr[1] = vr[2];
+						vr[2] = 0;
+					}
+					else if(vr[1] == vr[2]){
+						vr[1] = 2*vr[1];
+						vr[2] = 0;
+					}
+				}
+				else{
+					if(vr[0]==vr[1]){
+						if(vr[2]==vr[3]){
+							vr[0] = 2*vr[0];
+							vr[1] = 2*vr[2];
+							vr[2] = 0;
+							vr[3] = 0;
+						}
+						else{
+							vr[0]=2*vr[0];
+							vr[1]=vr[2];
+							vr[2]=vr[3];
+							vr[3]=0;
+						}
+					}
+					else if(vr[1] == vr[2]){
+						vr[1]=2*vr[2];
+						vr[2]=vr[3];
+						vr[3]=0;
+					}
+					else if(vr[2]==vr[3]){
+						vr[3]=2*vr[2];
+						vr[3]=0;
+					}
+				}
+				
+			}
+		
+
+			for(var k =0;k<4-l;k++){
+				vr.push(0);
+			}
+			tr=[];
+			for(var k =vr.length-1;k>=0;k--){
+				tr.push(vr[k]);
+			}
+			for(var k=0;k<vr.length;k++){
+				vr[k] = tr[k];
+			}
+			for(var k=0;k<4;k++){
+				dis[i][k] = vr[k];
+			}
+		}
+	}
+
+	function up(){
+		for(var i =0;i<4;i++){
+			var ar = [0,0,0,0];
+			var vr = [];
+			for(var j =0;j<4;j++){
+				if(dis[i][j]!=0){
+					vr.push(dis[i][j]);
+				}
+				ar[j] = dis[i][j];
+			}
+
+			var l = vr.length;
+			if(l>1){
+				if(l==2){
+					if(vr[0]==vr[1]){
+						vr[0] = 2*vr[0];
+						vr[1] = 0;
+					}
+				}
+				else if(l==3){
+					if(vr[0] == vr[1]){
+						vr[0] = 2*vr[0];
+						vr[1] = vr[2];
+						vr[2] = 0;
+					}
+					else if(vr[1] == vr[2]){
+						vr[1] = 2*vr[1];
+						vr[2] = 0;
+					}
+				}
+				else{
+					if(vr[0]==vr[1]){
+						if(vr[2]==vr[3]){
+							vr[0] = 2*vr[0];
+							vr[1] = 2*vr[2];
+							vr[2] = 0;
+							vr[3] = 0;
+						}
+						else{
+							vr[0]=2*vr[0];
+							vr[1]=vr[2];
+							vr[2]=vr[3];
+							vr[3]=0;
+						}
+					}
+					else if(vr[1] == vr[2]){
+						vr[1]=2*vr[2];
+						vr[2]=vr[3];
+						vr[3]=0;
+					}
+					else if(vr[2]==vr[3]){
+						vr[3]=2*vr[2];
+						vr[3]=0;
+					}
+				}
+				
+			}
+		
+
+			for(var k=0;k<4-l;k++){
+				vr.push(0);
+			}
+			for(var k=0;k<4;k++){
+				dis[i][k] = vr[k];
+			}
+		}
+	}
+
+	function left(){
+		for(var i =0;i<4;i++){
+			var ar = [0,0,0,0];
+			var vr = [];
+			for(var j =0;j<4;j++){
+				if(dis[j][i]!=0){
+					vr.push(dis[j][i]);
+				}
+				ar[j] = dis[j][i];
+			}
+
+			var l = vr.length;
+			if(l>1){
+				if(l==2){
+					if(vr[0]==vr[1]){
+						vr[0] = 2*vr[0];
+						vr[1] = 0;
+					}
+				}
+				else if(l==3){
+					if(vr[0] == vr[1]){
+						vr[0] = 2*vr[0];
+						vr[1] = vr[2];
+						vr[2] = 0;
+					}
+					else if(vr[1] == vr[2]){
+						vr[1] = 2*vr[1];
+						vr[2] = 0;
+					}
+				}
+				else{
+					if(vr[0]==vr[1]){
+						if(vr[2]==vr[3]){
+							vr[0] = 2*vr[0];
+							vr[1] = 2*vr[2];
+							vr[2] = 0;
+							vr[3] = 0;
+						}
+						else{
+							vr[0]=2*vr[0];
+							vr[1]=vr[2];
+							vr[2]=vr[3];
+							vr[3]=0;
+						}
+					}
+					else if(vr[1] == vr[2]){
+						vr[1]=2*vr[2];
+						vr[2]=vr[3];
+						vr[3]=0;
+					}
+					else if(vr[2]==vr[3]){
+						vr[3]=2*vr[2];
+						vr[3]=0;
+					}
+				}
+				
+			}
+		
+
+			for(var k=0;k<4-l;k++){
+				vr.push(0);
+			}
+			for(var k=0;k<4;k++){
+				dis[k][i] = vr[k];
+			}
+		}
+	}
+
+	display();
+	var disable = 0;
+	function gameover(){
+		ctx.font = "50px Arial"
+		ctx.fillStyle = "blue";
+		ctx.textAlign = "center";
+		ctx.fillText("Game Over",200,180);
+		disable = 1;
+
+		ctx.fillStyle = "green";
+		ctx.textAlign = "center";
+		ctx.font = "30px Arial"
+
+		var count = -1;
+		for(var i =0;i<4;i++){
+			for(var j=0;j<4;j++){
+				count = Math.max(count,dis[i][j]);
+			}
+		}
+		ctx.fillText("Your Score Is " + count.toString(),200,220);
+	}
+
+	window.addEventListener('keydown',function (e){
+		if(disable == 1) return;
+
+		key = e.keyCode;
+		if(key == 37){
+			e.preventDefault();
+			left();
+		}
+		if(key == 38){
+			e.preventDefault();
+			up();
+		}
+		if(key == 39){
+			e.preventDefault();
+			right();
+		}
+		if(key == 40){
+			e.preventDefault();
+			down();
+		}
+
+		var counter = 0;
+		for(var i=0;i<4;i++){
+			for(var j=0;j<4;j++){
+				if(dis[i][j]==0){
+					counter++;
+				}
+			}
+		}
+		if(counter == 0){
+			gameover();
+			return;
+		}
+		else{
+			var n = Math.floor(Math.random()*16);
+			for(;n<32;n++){
+				m = n%16;
+				if(dis[Math.floor(m/4)][m%4]==0){
+					dis[Math.floor(m/4)][m%4]=2;
+					break;
+				}
+			}
+		}
+
+		display();
+	});
+
+</script>
+</html>
