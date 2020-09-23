@@ -99,8 +99,12 @@ export default {
       title: 'Programs I had been working on',
       list: [
         {
-          title: 'some Github urls',
           tags: [
+            {
+              text: 'Solved Chinese (Online Chinese Character Learning Tool)',
+              link: 'https://solvedchinese.org/',
+              bgColor: '#5F0000',
+            },
             {
               text: 'Happy New Year (Wechat profile photo cropper)',
               link: 'https://github.com/chengtianyue/HappyNewYear-',
@@ -112,7 +116,7 @@ export default {
               bgColor: '#7FFF00',
             },
             {
-              text: 'Polyhedron Dice Classificator',
+              text: 'Polyhedron Dice Classifier',
               link: 'https://github.com/chengtianyue/PolyhedronDiceClassification_VGG16',
               bgColor: '#4169E1',
             },
@@ -161,7 +165,7 @@ export default {
     },
     contacts: {
       title: '联系我',
-      desc: '请通过一下方式联系我',
+      desc: '请通过以下方式联系我',
       list: [
         {
           img: '/img/mailinglist.png',
@@ -191,7 +195,7 @@ export default {
     },
     contributorGuide: {
       title: '问题反馈',
-      desc: '可以通过一下渠道向我反映问题',
+      desc: '可以通过以下渠道向我反映问题',
       list: [
         {
           img: '/img/mailinglist.png',
@@ -219,8 +223,12 @@ export default {
       title: '我的小程序',
       list: [
         {
-          title: 'Github链接',
           tags: [
+            {
+              text: '解字 汉字学习平台',
+              link: 'https://solvedchinese.org/',
+              bgColor: '#5F0000',
+            },
             {
               text: '新年微信头像整合小程序',
               link: 'https://github.com/chengtianyue/HappyNewYear-',

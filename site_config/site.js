@@ -19,8 +19,8 @@ export default {
       },
       {
         key: 'blog',
-        text: 'BLOG',
-        link: '/en-us/blog/index.html',
+        text: 'COVID-19',
+        link: 'https://gcgvae.github.io/',
       },
       {
         key: 'community',
@@ -49,8 +49,8 @@ export default {
       title: 'Resources',
       list: [
         {
-          text: 'Blog',
-          link: '/en-us/blog/index.html',
+          text: 'COVID-19',
+          link: 'https://gcgvae.github.io/',
         },
         {
           text: 'Community',
@@ -74,8 +74,8 @@ export default {
       },
       {
         key: 'blog',
-        text: '博客',
-        link: '/zh-cn/blog/index.html',
+        text: '抗疫专栏',
+        link: 'https://gcgvae.github.io/',
       },
       {
         key: 'community',
@@ -104,8 +104,8 @@ export default {
       title: '资源',
       list: [
         {
-          text: '博客',
-          link: '/zh-cn/blog/index.html',
+          text: '抗疫专栏',
+          link: 'https://gcgvae.github.io/',
         },
         {
           text: '社区',
